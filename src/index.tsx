@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootswatch/dist/lumen/bootstrap.css' /*Importaremos un framework de CSS llamado bootswatch, que es parecido a bootstrap, pero con diferente paletas de colores*/
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
